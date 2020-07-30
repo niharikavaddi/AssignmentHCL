@@ -16,7 +16,7 @@ public class Display extends HttpServlet {
 		Connection con=null;
 		PreparedStatement psmt=null;
 		ResultSet rs=null;
-		String url="jdbc:mysql://127.0.0.1:3306/test?autoReconnect=true&useSSL=false",user="niharika",password="abcdefg";
+		String url="jdbc:mysql://127.0.0.1:3306/test?autoReconnect=true&useSSL=false",user="niharika",password="abcdefgh";
 		try
 		{
 		Class.forName("com.mysql.jdbc.Driver");
